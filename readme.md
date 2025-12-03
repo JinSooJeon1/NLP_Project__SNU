@@ -3,6 +3,11 @@ Unified Big Five and MBTI Multitask NLP Pipeline
 
 This repository provides a complete data preprocessing pipeline and a psychology-informed multitask model for predicting Big Five and MBTI personality traits from text. The system integrates multiple public and private datasets, normalizes labels into consistent formats, and optionally applies emotion-based filtering to emphasize psychologically meaningful signals.
 
+Some preprocessing functions and structural ideas were referenced from the open-source project at:
+https://github.com/jkwieser/personality-prediction-from-text
+
+Modifications include major structural reorganization, complete support for HuggingFace datasets, MBTI label preservation, unified Big Five schema, and a redesigned multitask architecture.
+
 
 ## Key Features ## 
 
