@@ -6,7 +6,11 @@ This repository provides a complete data preprocessing pipeline and a psychology
 Some preprocessing functions and structural ideas were referenced from the open-source project at:
 https://github.com/jkwieser/personality-prediction-from-text
 
+Also, pretrained models can be downloaded from the link above.   
+
 Modifications include major structural reorganization, complete support for HuggingFace datasets, MBTI label preservation, unified Big Five schema, and a redesigned multitask architecture.
+
+
 
 
 ## Key Features ## 
@@ -38,6 +42,7 @@ essays_big5.p
 MBTI output files example:
 text_mbti_<N>.p
 text_mbti.p
+
 
 
 
